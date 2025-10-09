@@ -1,5 +1,5 @@
-import math
-import random
+import math # math-ban lévő függvényeket tudjuk használni
+import random # random-ban lévő függvényeket tudjuk meghívni, használi
 
 a = 2
 gyoka = math.sqrt(a)
