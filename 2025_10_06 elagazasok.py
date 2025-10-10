@@ -52,3 +52,11 @@ else:
 # 1. Derékszögű-e a háromszög?
 # 2. Egyenlőszarú-e a háromszög?
 # 3. Szabályos-e a háromszög?
+
+# HF python - ciklusok, loops, iterációk, ...
+
+
+# Generáljon ki három véletlen háromjegyű számot, amelyek 13-al oszthatók! 
+# Adja meg az átlaguk!
+# Állítsa ezeket sorrendbe!
+# Van-e közöttük 4-el végződő?
