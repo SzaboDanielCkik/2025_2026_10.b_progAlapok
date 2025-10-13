@@ -60,3 +60,7 @@ else:
 # Adja meg az átlaguk!
 # Állítsa ezeket sorrendbe!
 # Van-e közöttük 4-el végződő?
+
+# Otthon tessék lemásolni a github-os repository tartalmát (pull)
+# Házi feladat elkészítése
+# add, commit, push
