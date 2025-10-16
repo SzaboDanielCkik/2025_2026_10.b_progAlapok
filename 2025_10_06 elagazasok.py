@@ -1,6 +1,8 @@
+import random
+import math
 # kérjen be egy egész számot és döntse el, hogy páros vagy páratlan?
 
-szam = int(input("Adjon meg egy egész számot:"))
+szam = 23 #int(input("Adjon meg egy egész számot:"))
 if(szam % 2 == 0):
     print("páros")
 else: # szam % != 0
@@ -18,7 +20,7 @@ else:
 
 # Kérjen be egy másik számot és írassa ki a két szám reciprokának összegét!
 
-szam2 = int(input("Adjon meg egy másik számot: "))
+szam2 = 12 #int(input("Adjon meg egy másik számot: "))
 
 if(szam != 0):
     if(szam2 != 0):
@@ -64,3 +66,20 @@ else:
 # Otthon tessék lemásolni a github-os repository tartalmát (pull)
 # Házi feladat elkészítése
 # add, commit, push
+
+# páros kétjegyű [5,44]*2 
+# 100/13 = 7,6
+# 999/13 = 76,8
+a = random.randint(8,76)*13
+b = random.randint(8,76)*13
+c = random.randint(8,76)*13
+
+szamjegy = int(input("adjon meg egy számjegyet"))
+
+print(a,b,c)
+
+if(a % 10 == szamjegy or b % 10 == szamjegy or c % 10 == szamjegy):
+    print("Van közte "+str(szamjegy)+"-re végződő")
+else:
+    print("Nincs közte "+str(szamjegy)+"-re végződő")
+
