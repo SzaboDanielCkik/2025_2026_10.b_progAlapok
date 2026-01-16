@@ -1,5 +1,11 @@
 # Készítsen egy függvényt, ami egy db számtól függ, és visszaad egy felötltött listát [-10,50] közötti számokkal!
 # Készítsen egy függvényt, ami bármilyen lista elemeit megvizsgálva visszaadja, hogy hány db pozitív szám van!
+
+# HF 
+# Írjon egy fv-t, ami bármilyen lista elemei közül megadja a legnagyobb szám indexét!
+# Írjon egy fv-t, ami bármilyen lista elemeire kiszámolja az átlagot!
+# Írjon egy fv-t, ami bármilyen lista elemeire kiszámolja a pozitív számok átlagát!
+
 import random
 
 def listaFeltolt(db):
