@@ -13,18 +13,35 @@ import random
 # Írjon fv-t, ami visszaadja a listánk terjedelmét. Terjedelem = maximum-minimum
 
 
-def terjedelem(lista):
+# def terjedelem(lista):
+#     maxe = lista[0]
+#     mine = lista[0]
+#     for i in range(1,len(lista),1):
+#         if(lista[i]>maxe):
+#             maxe = lista[i]
+#         if(lista[i]<mine):
+#             mine = lista[i]
+#     terjedelem = maxe - mine
+#     return terjedelem
+    
+def maximumErtek(lista):
     maxe = lista[0]
-    mine = lista[0]
     for i in range(1,len(lista),1):
         if(lista[i]>maxe):
             maxe = lista[i]
+    return maxe
+
+def minimumErtek(lista):
+    mine = lista[0]
+    for i in range(1,len(lista),1):
         if(lista[i]<mine):
             mine = lista[i]
-    terjedelem = maxe - mine
-    return terjedelem
-    
+    return mine
 
+def terjedelem(lista):
+    maxe = maximumErtek(lista)
+    mine = minimumErtek(lista)
+    return maxe - mine
 
 def maximumIndex(lista):
     maxi = 0 # maxi - maximum index
@@ -101,5 +118,9 @@ def main():
     
     maxIndexLista1 = maximumIndex(lista1)
     print("Első lista legnagyobb elem helye: ", maxIndexLista1+1)
+
+    print("lista1 maximum:",maximumErtek(lista1))
+    print("lista1 minimum:", minimumErtek(lista1))
+    print("lista1 terjedelme:",terjedelem(lista1))
 
 main()
