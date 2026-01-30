@@ -33,4 +33,6 @@ def main():
     print(lista)
     # darabszámolás
     print(pozitivDb(lista))
+
+
 main()
