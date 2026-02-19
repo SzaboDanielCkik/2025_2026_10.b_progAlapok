@@ -33,6 +33,43 @@ def main():
     #valasz[2] = 5.0
     print(valasz)
 
+    # tördelés - split
+    szoveg = "Jani 2000 10 03"
+    print(szoveg)
+    tordelt = szoveg.split(" ")
+    print(tordelt)
+    print(2026-int(tordelt[1]))
 
+    adat = (tordelt[0], int(tordelt[1]), int(tordelt[2]), int(tordelt[3]))
+    print(adat)
 
+    szoveg2 = "2026.02.19 3 Programozás"
+    # 2026.02.19
+    # 2 - február
+    szoveg2Tordel = szoveg2.split(" ")
+    print(szoveg2Tordel)
+    datum = szoveg2Tordel[0].split(".")
+    print(datum[1])
+
+    # ABC-123,Kis Pista,KJ358638351,1992.03.10
+    # Év? 1992
+    # Vezetéknév? Kis
+
+    auto = "ABC-123,Kis Pista,KJ358638351,1992.03.10".split(",")
+    print(auto)
+    nev = auto[1].split(" ")
+    datum = auto[3].split(".")
+    print(nev[0], datum[0])
+
+    # Hf 
+    # "ABC123 Kis Pista KJ-358638351 1992_03_10"
+    # rendszám utolsó 3 száma
+    # keretsznév
+    # hónap
+
+    #"Nagy Béla:2026_02_19 - 12:13:20"
+    # Nagy Béla az adott napon és időben csekkolt be!
+    # Nap?
+    # óra?
+    # Keresztnév?
 main()
