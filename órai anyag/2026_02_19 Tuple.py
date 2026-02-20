@@ -63,6 +63,10 @@ def main():
 
     # Hf 
     # "ABC123 Kis Pista KJ-358638351 1992_03_10"
+    st = "ABC123 Kis Pista KJ-358638351 1992_03_10".split(' ')
+    rendszam = st[0]
+    print(rendszam[3],rendszam[4],rendszam[5],sep="")
+    print(rendszam[3]+rendszam[4]+rendszam[5])
     # rendszám utolsó 3 száma
     # keretsznév
     # hónap
