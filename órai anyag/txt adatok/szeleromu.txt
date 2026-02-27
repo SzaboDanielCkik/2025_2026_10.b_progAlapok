@@ -1,3 +1,4 @@
+44
 Bükkaranyos;Borsod-Abaúj-Zemplén;Észak-Magyarország;1;225;2005
 Felsőzsolca;Borsod-Abaúj-Zemplén;Észak-Magyarország;1;1800;2006
 Erk;Heves;Észak-Magyarország;1;800;2005
