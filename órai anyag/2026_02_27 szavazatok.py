@@ -39,8 +39,43 @@ def feladat4(adatok):
 
     szavazatokSzama = osszesSzavazat(adatok)
     mindenki = 12345
-
+    szazalek = szavazatokSzama / mindenki * 100
+    print(f"A választáson {szavazatokSzama} állampolgár, a jogosultak {round(szazalek,2)}%-a vett részt.")
     # A választáson 5001 állampolgár, a jogosultak 40,51%-a vett részt.
+
+def partDarab(adatok, part):
+    db = 0
+    for i in range(len(adatok)):
+        if(adatok[i][4] == part):
+            db+=1
+    return db
+
+def feladat5(adatok):
+    gyep = partDarab(adatok,"GYEP")
+    hep = partDarab(adatok,"HEP")
+    tisz = partDarab(adatok,"TISZ") 
+    zep = partDarab(adatok,"ZEP")
+    fugg = partDarab(adatok,"-")
+    print("Gyümölcsevők Pártja =",gyep)
+    print("Húsevők Pártja =",hep)
+    print("Tejivók Szövetsége =",tisz)
+    print("Zöldségevők Pártja =",zep)
+    print("Független Párt =",fugg)
+
+    #Gyümölcsevők Pártja (GYEP), a Húsevők Pártja (HEP), a Tejivók Szövetsége (TISZ) vagy a Zöldségevők Pártja (ZEP)
+
+def maximumSzavazatok(adatok):
+    maxe = adatok[0][1]
+    for i in range(len(adatok)):
+        if(adatok[i][1]>maxe):
+            maxe = adatok[i][1]
+    return maxe
+
+def feladat6(adatok):
+    maxe = maximumSzavazatok(adatok)
+    for i in range(len(adatok)):
+        if(adatok[i][1] == maxe):
+            print(f"{adatok[i][2]} {adatok[i][3]} - {adatok[i][4]}")
 
 def main():
     adatok = listaFeltoltes()
@@ -54,6 +89,12 @@ def main():
 
     # 4. feladat
     feladat4(adatok)
+
+    # 5. feladat
+    feladat5(adatok)
+
+    # 6. feladat
+    feladat6(adatok)
 
     # aminosavas feladat
 main()
