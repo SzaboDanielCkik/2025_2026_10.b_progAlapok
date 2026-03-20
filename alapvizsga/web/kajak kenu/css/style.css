@@ -1,0 +1,12 @@
+*{
+    font-family: cursive;
+}
+.navbar img{
+    height:2rem;
+}
+.banner h1{
+    background-color: rgb(0,0,0);
+}
+caption{
+    caption-side: top;
+}

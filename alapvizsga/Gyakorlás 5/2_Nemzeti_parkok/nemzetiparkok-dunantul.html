@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href='nemzetiparkok-dunantul.css' />#hivatkozás
+  <script src="nemzetiparkok-dunantul.js"></script>
+    <title>Nemzeti Parkok a Dunántúlon</title>
+</head>
+
+<body onload="start();">
+  <div id="tartalom">
+
+    <header>
+      <h1>Nemzeti parkok a Dunántúlon</h1>
+      <nav>
+        <a class="nav-link" href="#parkjaink">Dunántúli nemzeti parkjaink</a># href: belső hivatkozás
+        <a class="nav-link" href="#roviden">A parkokról röviden</a>
+        <a class="nav-link" href="#noveny-allatvilag">Növény- és állatvilág</a>
+        <a class="nav-link" href="#elso-parkok">Az első nemzeti parkok</a>
+      </nav>
+    </header>
+
+    <section id="parkjaink">
+      <h2>Dunántúli nemzeti parkjaink</h2>
+      <a href="http://magyarnemzetiparkok.hu/" target="_blank">
+        <img src="images/logo/nemzetiparkok.png" alt="Magyar Nemzeti Parkok" title="Magyar Nemzeti Parkok" class="park-logo">
+      </a>
+      <p>Magyarországon az 1850/1972. és 1851/1972. számú OTvH határozattal hozták létre az első Nemzeti Parkot. Ez a Hortobágyi Nemzeti Park volt. Hivatalos alapítási időpont 1973. január 1. A Természetvédelmi Világszövetség (IUCN) védett területeket osztályozó rendszere II-es kategóriába sorolta a Hortobágyi Nemzeti Parkot. Utolsóként az Őrségi Nemzeti Park alakult meg 2002-ben.</p>
+      <p>Nemzeti parkjainkról a <a href="http://magyarnemzetiparkok.hu/" target="_blank">Magyar Nemzeti Parkok</a> honlapon tudhatunk meg további részleteket, aktuális híreket, útmutatókat.</p>
+      <p>Magyarországon 2016 elején 10 nemzeti park volt, a dunántúli parkok felsorolása az alábbi táblázatban található. A területadatok 2014 végére vonatkoznak.</p>
+      <div class="container-fluid row" id="park-adatok">
+        <div class="col-lg-6">
+          <table class="table table-striped" id="tablazat">
+            <thead>
+              <tr>
+                <th>Nemzeti park</th>
+                <th>Alapítva</th>
+                <th>Területe (km<sup>2</sup>)</th>
+                <th>Székhelye</th>
+              </tr># tr- sor
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fertő–Hanság Nemzeti Park</td>
+                <td>1991</td>
+                <td>238913</td>
+                <td>Sarród</td>
+              </tr>
+              <tr>
+                <td>Duna–Dráva Nemzeti Park</td>
+                <td>1996</td>
+                <td>497516</td>
+                <td>Pécs</td>
+              </tr>
+              <tr>
+                <td>Duna–Ipoly Nemzeti Park</td>
+                <td>1997</td>
+                <td>606760</td>
+                <td>Budapest/Esztergom</td># td- oszlop
+              </tr>
+              <tr>
+                <td>Őrségi Nemzeti Park</td>
+                <td>2002</td>
+                <td>440483</td>
+                <td>Őriszentpéter</td>
+              </tr>
+              <tr>
+                  <td>Balaton-felvidéki Nemzeti Park</td>
+                  <td>1997</td>
+                  <td>570190</td>
+                  <td>Csopak</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-6">
+			<img src='igazgatosagok-nevek.png' alt="Nemzeti Park területek" title="Nemzeti Park területek" id="terkep" />
+        </div>
+      </div>
+    </section>
+
+    <section id="roviden">
+      <h2>A parkokról röviden</h2>
+      <article>
+        <h3>Balaton-felvidéki Nemzeti Park</h3>
+        <a href="http://www.bfnp.hu/" target="_blank">
+          <img src="images/logo/balaton-felvidek.png" alt="Balaton-felvidék" title="Balaton-felvidék" class="park-logo">
+        </a>
+        <p>A parkon belül hat tájvédelmi körzetet tudunk megkülönböztetni: Kis-Balaton, Keszthelyi-hegység, Tapolcai-medence, Káli-medence, Pécselyi-medence, Tihanyi-félsziget. A Balaton-felvidék fenti tájegységeinek különlegessége, hogy olyanok, mintha a Mediterráneumhoz tartoznának. A Kis-Balatont például a vizes élőhelyek nemzetközi védelmét szolgáló Ramsari Egyezmény is óvja. Tapolca környékén a barlangok, a Tihanyi-félszigeten a hévforrás-kúpokkal körülvett tavak szubmediterrán ritka, növény és állatvilága, amiket közelebbről is érdemes tanulmányozni. A félsziget ritka fészkelő madara a délies elterjedésű füles kuvik, ám a nyári estéket hangos ciripelésükkel betöltő énekes és manna kabócák is itt élnek.</p>
+      </article>
+      <article>
+        <h3>Duna-Dráva Nemzeti Park</h3>
+        <a href="http://www.ddnp.hu/" target="_blank">
+          <img src="images/logo/duna-drava.png" alt="Duna-Dráva" title="Duna-Dráva" class="park-logo">
+        </a>
+        <p>A Dunát és a Drávát övező, érintetlen ártéri erdők és mocsarak világát mutatja be ez a park. Itt van hazánk legnagyobb erdős ártere, a Gemenc, amely a gímszarvas- valamint vaddisznóállományáról nevezetes, ám fontos a madárrezervátuma is. Itt él védett madaraink egy része, mint például a rétisas, a kerecsensólyom és a fekete gólya. A meredek folyópartokat pedig mindenhol partifecske-családok népesítik be.</p>
+      </article>
+      <article>
+        <h3>Duna-Ipoly Nemzeti Park</h3>
+        <a href="http://www.dunaipoly.hu/" target="_blank">
+          <img src="images/logo/duna-ipoly.png" alt="Duna-Ipoly" title="Duna-Ipoly" class="park-logo">
+        </a>
+        <p>A Duna-Ipoly Nemzeti Park egyedi arculatát a változatos felszíni formáknak köszönheti, hiszen a folyóvölgyek mellett a hegyek és a síkság is bejárhatók. A Pilis és a Börzsöny hegység mentén, a Duna és az Ipoly folyó között elhelyezkedő park rendkívül népszerű kirándulóhely. A mészkőből és dolomitból felépülő hegység remek terep a barlangképződésre. Így érthető, hogy a nemzeti park majdnem 200 barlangjának többsége a Pilis-hegységben található. A nemzeti parkra jellemző növényzet értékei közt számos olyan faj található, amely csak a Kárpát-medencében honos, sőt egyes példányok csak a Duna-Ipoly Nemzeti Park területén élnek. Ilyen például a magyarföldi husáng. A lejtők a megkapó szépségű leánykökörcsin és feketekökörcsin termőhelyei.</p>
+      </article>
+      <article>
+        <h3>Fertő-Hanság Nemzeti Park</h3>
+        <a href="http://www.ferto-hansag.hu/" target="_blank">
+          <img src="images/logo/ferto-hansag.png" alt="Fertő-Hanság" title="Fertő-Hanság" class="park-logo">
+        </a>
+        <p>Az Ausztriával közös határon fekvő Fertő tó nemcsak üdülőhely és sportközpont, hanem madarak, nádasok és szikes tavak szépséges otthona. A tó területének felét, a magyar területek közel 90%-át nádas borítja, egyharmadát pedig mocsári növényzet uralja. A tó, a nádasok, a szikesek, a szikes tavak élővilága külön világot képez. A tó vízében elő halfajok közül a réti csík, süllő, lápi póc, a csuka és a fertői nyurga ponty a legértékesebbek. A nádasokban lakik a kecses nagy kócsag, a kanalas gém, a vörös gém, a bölömbika, de költ itt a barna rétihéja is. A tájegység lakója egy jégkorszakból itt maradt elevenszülő gyík is. A szikes tavak több fajnak, így a csörgő récének, a gulipánnak, az aranylilének és a rétisasnak is otthont adnak.</p>
+      </article>
+      <article>
+        <h3>Őrségi Nemzeti Park</h3>
+        <a href="http://www.orseginemzetipark.hu/" target="_blank">
+          <img src="images/logo/orseg.png" alt="Őrség" title="Őrség" class="park-logo">
+        </a>
+        <p>Ez a park az Őrségen túl magában foglalja a Vendvidéket és a Rába szabályozatlan völgyét is. A Vendvidék rétjei május környékén tarka virágforgataggal fogadják az idelátogatókat, a tájat a réti kakukkszegfű, a harangvirág és a boglárka teszi színpompássá. A dombok közti rétek lakója a kockásliliom, a szibériai nőszirom, a lápi tarkalepke, a tűzlepke és a haris. Az Őrségben olyan bükkösöket és erdei-fenyveseket találunk, ahol Európa legkisebb madarai, a sárga és a tüzesfejű királykák tanyáznak. A Rába mentén gyurgyalagok, jégmadarak és szürke gémek költenek, a folyó menti ártéri fűzfaligetekben pedig a nagyon ritka hód és vidra nyomaival találkozhattok.</p>
+      </article>
+    </section>
+
+    <section id="noveny-allatvilag">
+      <h2>Növény- és állatvilág</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8">
+            <img src="images/termeszet/denever.png" id="kezdokep" alt="Denevér" onmouseover="mutasd(this);">
+            <img src="images/termeszet/imadkozosaska.png" alt="Imádkozó sáska" onmouseover="mutasd(this);">
+            <img src="images/termeszet/mocsariteknos.png" alt="Mocsári teknős" onmouseover="mutasd(this);">
+            <img src="images/termeszet/mokus.png" alt="Mókus" onmouseover="mutasd(this);">
+            <img src="images/termeszet/szalamandra.png" alt="Szalamandra" onmouseover="mutasd(this);">
+            <img src="images/termeszet/vakond.png" alt="Vakond" onmouseover="mutasd(this);">
+            <img src="images/termeszet/hovirag.png" alt="Hóvirág" onmouseover="mutasd(this);">
+            <img src="images/termeszet/kokorcsin.png" alt="Leánykökörcsin" onmouseover="mutasd(this);">
+            <img src="images/termeszet/tunderrozsa.png" alt="Tündérrózsa" onmouseover="mutasd(this);">
+          </div>
+          <div class="col-lg-4" id="kiemeles">
+            <div id="kiemelt-nev"></div>
+            <div id="kiemelt-kep"></div>
+            <div id="kiemelt-leiras"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="elso-parkok">
+      <h2>Az első nemzeti parkok a világon</h2>
+      <a href="https://www.iucn.org/" target="_blank">
+        <img src="images/logo/iucn.png" alt="Természetvédelmi Világszövetség" title="Természetvédelmi Világszövetség" id="iucn">
+      </a>
+      <img src="images/yosemite.jpg" alt="Yosemite Nemzeti Park" title="Yosemite Nemzeti Park" id="yosemite" class="kepek">
+      <p>A nemzeti park a <abbr title="A természeti értékek megőrzésére létrehozott nemzetközi szervezet"><b>Természetvédelmi Világszövetség</b></abbr> meghatározása szerint olyan terület, amelynek ökológiai egységessége megőrzendő a jelen és a jövő generációi számára, amely megvédendő mindenfajta mezőgazdasági és ipari hasznosítástól, és amelyen lehetőség nyílik nemcsak tudományos, hanem oktatási és szabadidős tevékenységek végzésére is.</p>
+      <p>Ez elvek alapján első alkalommal 1864-ben az Amerikai Egyesült Államokban helyeztek állami védelem alá egy területet. 1864. június 30-án az Abraham Lincoln által aláírt törvény a kaliforniai Yosemite Valley-t és a Giant Sequoias-i Mariposa Grove-ot állami tulajdonba vette, létrehozva ezzel a <a href="https://www.yosemite.com/" target="_blank">Yosemite Nemzeti Parkot</a>. Az első valódi nemzeti park, amely létrehozatalának pillanatában a nemzeti park nevet is megkapta, az 1872-ben létrehozott <a href="https://www.yellowstonenationalpark.com/" target="_blank">Yellowstone Nemzeti Park</a>.</p>
+      <p>1909. május 24-én alakultak meg az első európai nemzeti parkok, ennek emlékére minden év május 24-én ünneplik az Európai Nemzeti Parkok Napját.</p>
+      
+      <h3>Az első nemzeti parkok a kontinenseken</h3>
+
+        <ul>
+           <li>Afrika: 1907, Namíbia</li>
+           <li> Ázsia: 1783, Mongólia</li>
+           <li>Európa: 1909, Svédország</li>
+           <li>Közép- és Észak-Amerika: 1872, USA</li>
+           <li>Dél-Amerika: 1961, Peru</li>
+           <li>Óceánia: 1879, Ausztrália</li>
+        </ul>
+
+    </section>
+
+    <footer>
+      <div id="toTop">
+        <a href="#">Ugrás az elejére</a>
+      </div>
+  </div>
+  </footer>
+</body>
+
+</html>
+
+<!--
+A szövegek és képek forrásai:
+http://magyarnemzetiparkok.hu/
+https://csodasmagyarorszag.hu/cikkek/nemzeti-parkok
+https://tudasbazis.sulinet.hu/
+https://vadonleső.hu/
+https://hu.wikipedia.org/wiki/Nemzeti_park
+https://www.yosemite.com/
+
+-->

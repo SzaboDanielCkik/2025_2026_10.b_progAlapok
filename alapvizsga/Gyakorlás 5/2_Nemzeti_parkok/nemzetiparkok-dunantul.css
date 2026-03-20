@@ -1,0 +1,161 @@
+html {
+    font-size:14px;
+    
+}
+body {
+    background-image: url("images/logo/termeszetvedelem-hatter.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center top;
+    background-attachment:fixed;
+    background-color:rgba(0,255,0,85);
+    width:100%;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-right: none !important;
+    }
+}
+
+@media (min-width: 1001px) {
+    nav {
+        flex-direction: row;
+    }
+}
+
+body {
+    background-size: contain;
+    background-color: rgba(0, 255, 0, 8%);
+}
+
+#tartalom {
+    padding: 20px;
+}
+
+p {
+    text-align:justify;
+}
+
+#tablazat {
+    width: 100%;
+    border: 1px solid darkgray;
+}
+
+#terkep {
+    max-width: 100%;
+}
+
+#noveny-allatvilag img {
+    width: 150px;
+}
+
+#kiemeles {
+    min-height: 300px;
+    height: auto;
+}
+
+#kiemelt-kep {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height:300px;
+}
+
+#kiemelt-kep img {
+    height: 300px;
+}
+
+#kiemelt-nev {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#kiemelt-leiras {
+    text-align: center;
+    vertical-align: top;
+}
+
+section,
+article {
+    overflow: auto;
+    height: fit-content;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-right: 1px solid lightgray;
+}
+
+nav a:hover {
+    color: darkblue;
+    background-color: rgba(207, 207, 252, 0.5);
+}
+
+.park-logo {
+    height: 90px;
+    padding: 0.8rem;
+    float: left;
+}
+
+#yosemite {
+    padding: 0.4rem;
+    width: 350px;
+    max-width: 50%;
+    float: right;
+}
+
+#iucn {
+    width: 70px;
+    padding: 0.2rem;
+    float: left;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    background-color: rgba(123, 251, 138, 0.25);
+}
+
+h3 {
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+    background-color: rgba(123, 251, 138, 0.15);
+}
+
+h1,h2,h3 {
+    color:darkgreen;
+}
+
+#toTop {
+    z-index: 100;
+    padding: 0.3em;
+    background-color: rgba(207, 207, 252, 0.5);
+    font-weight: bold;
+    position: fixed;
+    right:0px;
+    bottom:0px;
+
+}
+
+.kepek {
+    border-radius: 1rem;
+}
+

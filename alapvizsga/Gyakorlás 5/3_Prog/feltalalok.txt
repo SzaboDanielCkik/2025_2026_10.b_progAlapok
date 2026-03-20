@@ -1,0 +1,36 @@
+BAY ZOLTÁN LAJOS/1900/1992/Hold-radar kísérlet
+BÁNKI DONÁT/1859/1922/szíjhajtásos dinamométer
+BLÁTHY OTTÓ TITUSZ/1861/1939/új áramelosztási rendszer
+CSONKA JÁNOS/1852/1939/vegyes üzemű gáz- és petróleummotor
+DÉRI MIKSA/1854/1938/örvényáramú (eredeti nevén: Foucault-áramú) fékkel kiegészített fékszerkezete
+EÖTVÖS LORÁND/1848/1919/graviméter
+FONÓ ALBERT/1881/1972/légi torpedó
+GALAMB JÓZSEF/1881/1955/T-modell sok fontos alkatrészét tervezte
+GANZ ÁBRAHÁM/1814/1867/A magyar nehézipar egyik úttörője
+GÁBOR DÉNES/1900/1979/ optikai holográfia feltalálója
+HELLER LÁSZLÓ/1907/1980/erőművek víz nélkül, levegővel történő hűtése
+IRINYI JÁNOS/1817/1895/zajtalanul gyúló foszforos gyufa feltalálója
+JEDLIK ÁNYOS/1800/1895/ "Súlyos testek természettana" című egyetemi tankönyve
+JENDRASSIK GYÖRGY/1898/1954/Ganz-Jendrassik motorok
+KANDÓ KÁLMÁN/1869/1931/3 kV háromfázisú és a 16 kV fázisváltós rendszer
+KÁRMÁN TÓDOR/1881/1963/megalapította a Nemzetközi Asztronautikai Akadémiát
+KRUSPÉR ISTVÁN/1818/1905/ modern magyar mérésügy egyik megteremtője
+KÜHNE EDE/1839/1903/sorvetőgép
+MECHWART ANDRÁS/1834/1907/a magyar ipartörténet egyik legkiemelkedőbb képviselője
+MIHÁLY DÉNES/1894/1953/Természetes színű mozgófényképek és eljárás azoknak előállítására
+NEUMANN JÁNOS/1903/1957/számítógép atyja
+PATTANTYÚS ÁBRAHÁM GÉZA/1885/1956/ emelőgépek, a szállítóberendezések, az áramlástechnikai gépek továbbfejlesztője
+PUSKÁS TIVADAR/1844/1893/elsőként Közép-Európában - utazási irodát nyitott
+RÉNYI ALFRÉD/1921/1970/A matematika megszállottja
+RICHTER GEDEON/1972/1944/hazai gyógyszeripar megteremtője
+Rubik Ernő/1944//Térbeli logikai játék
+RYBÁR ISTVÁN/1886/1971/Eötvös-féle torziós mérleg
+SZENTÁGOTHAI JÁNOS/1912/1994/az anatómia oktatását teljesen új pályára helyezte
+SZENT-GYÖRGYI ALBERT/1893/1986/ C-vitamin és a fumársavkatalízis szerepének terén tett felfedezéseiért kapott Nobel díjat, elsőként Magyarországon
+SZILÁRD LEÓ/1898/1964/Hűtőgép
+Telkes Mária/1900/1995/az első, szoláris fűtési rendszerrel működő "napház"
+TIHANYI KÁLMÁN/1897/1947/ "önirányító" kamera és a televízió
+Wigner Jenő/1902/1995/Molekulák képződése és szétesése
+WINKLER LAJOS/1863/1939/A Magyar Gyógyszerkönyv 3. és 4. kiadásának (1909, 1933) kémiai részét ő dolgozta ki.
+ZEMPLÉN GÉZA/1883/1956/Eljárás hideg vízben könnyen oldható, alacsony molekulasúlyú keményítő előállítására
+ZIPERNOWSKY KÁROLY/1853/1942/a magyar erősáramú elektrotechnikai ipar egyik megalapítója

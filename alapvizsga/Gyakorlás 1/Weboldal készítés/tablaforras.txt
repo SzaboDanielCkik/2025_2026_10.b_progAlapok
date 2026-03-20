@@ -1,0 +1,31 @@
+<table>
+  <tr>
+    <td>Elnevezés</td>
+  </tr>
+  <tr>
+    <td>Magyar név</td>
+    <td>Kanári</td>
+  </tr> 
+  <tr>
+    <td>Tudományos név</td>
+    <td>Serinus canaria</td>
+  </tr>
+  <tr>
+    <td>Angol név</td>
+    <td>canary</td>
+  </tr> 
+  <tr>
+    <td>Rendszertan</td>
+  </tr>
+  <tr>
+    <td>Rend</td>
+    <td>verébalakúak Passeriformes</td>
+  </tr>
+  <tr>
+    <td>Család</td>
+    <td>pintyfélék Fringillidae</td>
+  </tr> 
+  <tr>
+    <td>Egyéb információk</td>
+  </tr>
+ </table> 
