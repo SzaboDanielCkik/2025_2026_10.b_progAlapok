@@ -1,5 +1,4 @@
 100
-március;Macska
 2015.01.21;SOÓS;GERGELY;2;Baromfi
 2015.04.05;HALÁSZ;ZSOMBOR;1;Macska
 2015.05.06;BALLA;ERIK;6;Hörcsög
